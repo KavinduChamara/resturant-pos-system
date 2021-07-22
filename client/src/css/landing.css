@@ -1,0 +1,138 @@
+.main-div {
+    display: flex;
+    margin-top: 43px;
+}
+
+.category-section {
+    display: flex;
+    flex-flow: wrap;
+    justify-Content: space-around;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.category-btn {
+    margin: 7px;
+    width: 120px;
+    border: none;
+    background: red;
+    border-radius: 12px;
+    color: white;
+    padding: 6px;
+}
+
+.final-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pay-btn {
+    width: 90%;
+    border: none;
+    background: red;
+    border-radius: 12px;
+    color: white;
+    padding: 6px;
+}
+
+.list-image {
+    height: 33px;
+    width: 33px;
+    margin-bottom: 6px;
+    border-radius: 8px;
+}
+
+.menu-div {
+    height: 100%;
+    width: 60%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-div {
+    width: 40%;
+    padding: 40px;
+    margin: 19px;
+    border-left-style: solid;
+    border-color: #d5cccc;
+    height: 90vh;
+    padding-top: 0;
+}
+
+.list-table {
+    max-height: 60vh;
+    width: 100%;
+    margin-top: 10px;
+    overflow-y: scroll;
+}
+
+.final-total-text {
+    font-size: 30px;
+}
+
+.items-list-div {
+    max-height: 61vh;
+    overflow-y: scroll;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-div-main {
+   height: 140px;
+   border-style: solid;
+   border-color: #d5cccc;
+   min-width: 270px;
+   border-radius: 19px;
+   margin: 10px;
+   padding: 20px; 
+}
+
+.final-data-main-div {
+    display: flex;
+    flex-direction: column;
+    margin: 4%;
+    margin: 4%;
+    border-style: solid;
+    border-color: beige;
+    padding: 12px;
+    border-radius: 13px;
+}
+
+.current-order-span {
+    font-size: 35px;
+}
+
+.clear-btn {
+    width: 83px;
+    border: none;
+    background: #d5cccc;
+    border-radius: 12px;
+    color: white;
+    padding: 3px;
+    margin-left: 4%;
+}
+
+.pay-btn-div {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 766px) {
+    .main-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-div {
+        width: 100%;
+    }
+
+    .list-div {
+        width: 100%;
+        border: none;
+    }
+}
