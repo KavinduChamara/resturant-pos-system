@@ -1,6 +1,6 @@
 Clone the app 'resturant-pos-system' from GitHub
 
-Restore the database backup named 'pos' which is inside folder resturant-pos-system' using MongoDB
+Extract pos.zip and restore the DB backup using MongoDB
 
 To up the front-end
 Navigate to client folder inside 'resturant-pos-system' (cd resturant-pos-system/client)
